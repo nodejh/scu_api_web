@@ -1,0 +1,43 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  animation: colorchange 50s infinite; /* animation-name followed by duration in seconds*/
+  -webkit-animation: colorchange 50s infinite; /* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  0% { background: #EF5350; }
+  10% { background: #651FFF; }
+  20% { background: #AFB42B; }
+  30% { background: #18FFFF; }
+  40% { background: #388E3C; }
+  50% { background: #2196F3; }
+  60% { background: #FFD740; }
+  70% { background: #FF3D00; }
+  80% { background: #212121; }
+  90% { background: #BA68C8; }
+  100% { background: #EF5350; }
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0% { background: #EF5350; }
+  10% { background: #651FFF; }
+  20% { background: #AFB42B; }
+  30% { background: #18FFFF; }
+  40% { background: #388E3C; }
+  50% { background: #2196F3; }
+  60% { background: #FFD740; }
+  70% { background: #FF3D00; }
+  80% { background: #212121; }
+  90% { background: #BA68C8; }
+  100% { background: #EF5350; }
+}
+
+.title {
+  margin-top: 20%;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+}
